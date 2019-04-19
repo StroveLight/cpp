@@ -12,7 +12,7 @@ void supra(set<int>&s, set<int>::iterator itt, int rest) {
             return;
         }else if (*it == rest) {// this means that this way leaves you with asked amount
             counter++;  // save that you can reach this way
-            // also, the next value (which is greater) will not be a valid answer
+            // also, the next value (which is *greater) will not be a valid answer
             return;
         }else {
             // this means that you have not reached the asked amount yet
